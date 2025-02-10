@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sothis"
+version = "0.1.0"
+description = ""
+authors = ["ns"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11,<4.0"
+langgraph = "^0.2.70"
+langsmith = "^0.3.7"
+langchain-openai = "^0.3.4"
+python-dotenv = "^1.0.1"
+ipykernel = "^6.29.5"
+llama-index = "^0.12.16"
+tavily-python = "^0.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
